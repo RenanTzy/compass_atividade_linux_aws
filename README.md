@@ -39,7 +39,7 @@ Antes de iniciar a configuração do ambiente do projeto, e necessario que se te
 - Clique em "Create Security Group".
 - Escolha um nome e selecione uma VPC.
 - Em "Inbound Rules", configure as seguintes regras e clique em "Create Security Group":
-	![[tablela-de-portas.png]]
+  ![tablela-de-portas](https://github.com/RenanTzy/compass_atividade_linux_aws/assets/81286010/815256a0-4e06-4b34-984b-463bde0fd5f0)
 #### Configurando a Instancia
 - No serviço EC2, clique em "Launch Instances".
 - Selecione a imagem Amazon Linux 2.
