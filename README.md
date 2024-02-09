@@ -29,7 +29,7 @@
 ---
 ### Preparando o Ambiente
 
-Antes de iniciar a configuração do ambiente do projeto, e necessario que se tenha configurado uma vpc, um internet gateway associado a essa 
+Antes de iniciar a configuração do ambiente do projeto, e necessario que se tenha configurado uma vpc, um internet gateway associado a essa vpc e uma tabela de rotas com uma regra que aceite trafégo de qualquer ip ```0.0.0.0/0```, para ser possivel acessar sua instancia via ssh.
 #### Key Pairs
 - No serviço EC2, clique em "Key Pairs" no menu lateral esquerdo na seção "Network & Security".
 - Clique em "Create Key Pair", selecione o nome da chave, o tipo de chave e o formato do arquivo ".pem" para Linux, e clique em "Create Key Pair".
